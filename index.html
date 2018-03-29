@@ -5,6 +5,8 @@
     <title>LFC Timeline</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+      crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -12,7 +14,10 @@
       <div class="container">
         <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/1200px-Liverpool_FC.svg.png" alt="LFC logo">
         <h1>A Brief History of Liverpool Football Club</h1>
-        <span>&darr;</span>
+        <div class="scroll">
+          <p>Scroll</p>
+          <span class="arrow">&darr;</span>
+        </div>
       </div>
     </header>
 
@@ -213,6 +218,12 @@
         </li>
       </ul>
     </section>
+
+    <button id="to-top" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
 </html>

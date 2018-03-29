@@ -14,21 +14,45 @@ body {
   padding-bottom: 50px;
 }
 
+/* Button */
+#to-top {
+  font-size: 1rem;
+  border: 0;
+  padding: 15px 17px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 2px;
+  display: none;
+  z-index: 20;
+  outline: none;
+  cursor: pointer;
+}
+
+#to-top:hover {
+  background-color: #555;
+}
+
 /* Intro */
 .intro {
   background: #fff;
   color: rgb(163, 36, 49);
-  padding: 100px 0;
+  padding: 100px 0 50px;
 }
 
 .intro img {
   width: 100px;
 }
 
-.intro span {
+.arrow {
   font-size: 2rem;
   display: block;
-  margin-top: 20px;
+}
+
+.scroll {
+  font-size: 12px; 
+  margin-top: 150px;
+  text-transform: uppercase;
 }
 
 .container {
